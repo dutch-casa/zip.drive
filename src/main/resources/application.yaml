@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: zip
+  datasource:
+    url: jdbc:postgresql://localhost:5432/drive
+    username: drive
+    password: drive
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    open-in-view: false
+
+    hibernate:
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
